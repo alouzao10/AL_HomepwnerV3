@@ -5,7 +5,7 @@
 //  WORKING COPY For ch. 15 - ch. 17
 //
 //  Created by Alex Louzao on 3/26/17.
-//  Copyright © 2017 ALcsc2310. All rights reserved.
+//  Copyright © 2017 ALcsc2310. All rights reserved
 //
 
 import UIKit
