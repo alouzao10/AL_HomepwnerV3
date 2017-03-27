@@ -10,6 +10,7 @@
 		5A6827901E86CEFC00482DCE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A68278F1E86CEFC00482DCE /* DetailViewController.swift */; };
 		5A6827921E881D7B00482DCE /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6827911E881D7A00482DCE /* CustomTextField.swift */; };
 		5A6827941E881F2600482DCE /* DateChangeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6827931E881F2600482DCE /* DateChangeController.swift */; };
+		5A6827961E8984BD00482DCE /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6827951E8984BD00482DCE /* ImageStore.swift */; };
 		5A88C9771E74644D008EECD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A88C9761E74644D008EECD2 /* AppDelegate.swift */; };
 		5A88C9791E74644D008EECD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A88C9781E74644D008EECD2 /* ViewController.swift */; };
 		5A88C97C1E74644D008EECD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A88C97A1E74644D008EECD2 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		5A68278F1E86CEFC00482DCE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5A6827911E881D7A00482DCE /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		5A6827931E881F2600482DCE /* DateChangeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateChangeController.swift; sourceTree = "<group>"; };
+		5A6827951E8984BD00482DCE /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		5A88C9731E74644D008EECD2 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A88C9761E74644D008EECD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A88C9781E74644D008EECD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				5A88C9781E74644D008EECD2 /* ViewController.swift */,
 				5A88C97A1E74644D008EECD2 /* Main.storyboard */,
 				5A68278F1E86CEFC00482DCE /* DetailViewController.swift */,
+				5A6827951E8984BD00482DCE /* ImageStore.swift */,
 				5A6827911E881D7A00482DCE /* CustomTextField.swift */,
 				5A6827931E881F2600482DCE /* DateChangeController.swift */,
 				5A88C9A81E746CA2008EECD2 /* ItemStore.swift */,
@@ -283,6 +286,7 @@
 				5A88C9A71E7466A0008EECD2 /* Item.swift in Sources */,
 				5A88C9791E74644D008EECD2 /* ViewController.swift in Sources */,
 				5A88C9AB1E7489DB008EECD2 /* ItemCell.swift in Sources */,
+				5A6827961E8984BD00482DCE /* ImageStore.swift in Sources */,
 				5A6827941E881F2600482DCE /* DateChangeController.swift in Sources */,
 				5A88C9A51E746546008EECD2 /* ItemsViewController.swift in Sources */,
 				5A6827921E881D7B00482DCE /* CustomTextField.swift in Sources */,
