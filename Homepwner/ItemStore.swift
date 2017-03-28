@@ -10,6 +10,23 @@ import UIKit
 
 class ItemStore{
     var allItems = [Item]()
+    let itemArchiveURL: URL = {
+        let documentDirectories = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+        let documentDirectory = documentDirectories.first!
+        return documentDirectory.appendingPathComponent("items.archive")
+    }()
+    
+    func saveChanges() -> Bool{
+        print("Saving Items to: \(itemArchiveURL.path)")
+        return NSKeyedArchiver.archiveRootObject(allItems, toFile: itemArchiveURL.path)
+    }
+    
+    init(){
+        if let archivedItems = NSKeyedUnarchiver.unarchiveObject(withFile: itemArchiveURL.path) as? [Item]{
+            allItems = archivedItems
+        }
+    }
+    
     
     var valItem: [Item]{
         return allItems.filter{$0.valueInDollars >= 0}
